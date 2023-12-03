@@ -289,6 +289,7 @@
     "item.car.canola_oil_bucket": "Canola Oil Bucket",
     "item.car.canola_methanol_mix_bucket": "Canola Methanol Mix Bucket",
     "item.car.bio_diesel_bucket": "Bio Diesel Bucket",
+    "item.car.gasoline_bucket": "Gasoline Bucket",
     "item.car.glycerin_bucket": "Glycerin Bucket",
     "item.car.methanol_bucket": "Methanol Bucket",
 
@@ -319,6 +320,7 @@
     "tooltip.methanol": "Stored Methanol: %s mb",
     "tooltip.glycerin": "Stored Glycerin: %s mb",
     "tooltip.bio_diesel": "Stored Bio Diesel: %s mb",
+    "tooltip.gasoline": "Stored Gasoline: %s mb",
     "tooltip.mix": "Stored Canola Methanol Mix: %s mb",
     "tooltip.progress": "Progress %s%%",
     "tooltip.damage": "Damage %s%%",
@@ -346,6 +348,7 @@
     "fluid.car.canola_methanol_mix": "Canola Methanol Mix",
     "fluid.car.glycerin": "Glycerin",
     "fluid.car.bio_diesel": "Bio Diesel",
+    "fluid.car.gasoline": "Gasoline",
 
     "key.car_back": "Backwards",
     "key.car_forward": "Forward",

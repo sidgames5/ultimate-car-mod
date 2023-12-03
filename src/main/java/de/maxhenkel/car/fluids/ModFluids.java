@@ -24,6 +24,8 @@ public class ModFluids {
     public static final DeferredHolder<Fluid, FluidGlycerinFlowing> GLYCERIN_FLOWING = FLUID_REGISTER.register("glycerin_flowing", () -> new FluidGlycerinFlowing());
     public static final DeferredHolder<Fluid, FluidBioDiesel> BIO_DIESEL = FLUID_REGISTER.register("bio_diesel", () -> new FluidBioDiesel());
     public static final DeferredHolder<Fluid, FluidBioDieselFlowing> BIO_DIESEL_FLOWING = FLUID_REGISTER.register("bio_diesel_flowing", () -> new FluidBioDieselFlowing());
+    public static final DeferredHolder<Fluid, FluidGasoline> GASOLINE = FLUID_REGISTER.register("gasoline", () -> new FluidGasoline());
+    public static final DeferredHolder<Fluid, FluidGasolineFlowing> GASOLINE_FLOWING = FLUID_REGISTER.register("gasoline_flowing", () -> new FluidGasolineFlowing());
 
     private static final DeferredRegister<FluidType> FLUID_TYPE_REGISTER = DeferredRegister.create(NeoForgeRegistries.Keys.FLUID_TYPES, Main.MODID);
 
@@ -41,6 +43,9 @@ public class ModFluids {
     );
     public static final DeferredHolder<FluidType, FluidType> BIO_DIESEL_TYPE = FLUID_TYPE_REGISTER.register("bio_diesel", () ->
             new FluidTypeCar("block.car.bio_diesel", new ResourceLocation(Main.MODID, "block/bio_diesel_still"), new ResourceLocation(Main.MODID, "block/bio_diesel_flowing"))
+    );
+    public static final DeferredHolder<FluidType, FluidType> GASOLINE_TYPE = FLUID_TYPE_REGISTER.register("gasoline", () ->
+            new FluidTypeCar("block.car.gasoline", new ResourceLocation(Main.MODID, "block/gasoline_still"), new ResourceLocation(Main.MODID, "block/gasoline_flowing"))
     );
 
     public static void init() {

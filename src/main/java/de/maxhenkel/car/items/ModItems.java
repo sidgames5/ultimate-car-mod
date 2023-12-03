@@ -223,6 +223,7 @@ public class ModItems {
     public static final DeferredHolder<Item, CarBucketItem> CANOLA_METHANOL_MIX_BUCKET = ITEM_REGISTER.register("canola_methanol_mix_bucket", () -> new CarBucketItem(ModFluids.CANOLA_METHANOL_MIX.get()));
     public static final DeferredHolder<Item, CarBucketItem> GLYCERIN_BUCKET = ITEM_REGISTER.register("glycerin_bucket", () -> new CarBucketItem(ModFluids.GLYCERIN.get()));
     public static final DeferredHolder<Item, CarBucketItem> BIO_DIESEL_BUCKET = ITEM_REGISTER.register("bio_diesel_bucket", () -> new CarBucketItem(ModFluids.BIO_DIESEL.get()));
+    public static final DeferredHolder<Item, CarBucketItem> GASOLINE_BUCKET = ITEM_REGISTER.register("gasoline_bucket", () -> new CarBucketItem(ModFluids.GASOLINE.get()));
 
     public static final DeferredHolder<Item, Item> ASPHALT = ITEM_REGISTER.register("asphalt", () -> ModBlocks.ASPHALT.get().toItem());
     public static final DeferredHolder<Item, Item> ASPHALT_SLOPE = ITEM_REGISTER.register("asphalt_slope", () -> ModBlocks.ASPHALT_SLOPE.get().toItem());

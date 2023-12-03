@@ -42,6 +42,7 @@ public class ModBlocks {
     public static final DeferredHolder<Block, BlockSignPost> SIGN_POST = BLOCK_REGISTER.register("sign_post", () -> new BlockSignPost());
     public static final DeferredHolder<Block, BlockCarPressurePlate> CAR_PRESSURE_PLATE = BLOCK_REGISTER.register("car_pressure_plate", () -> new BlockCarPressurePlate());
     public static final DeferredHolder<Block, LiquidBlock> BIO_DIESEL = BLOCK_REGISTER.register("bio_diesel", () -> new CarFluidBlock(() -> ModFluids.BIO_DIESEL.get()));
+    public static final DeferredHolder<Block, LiquidBlock> GASOLINE = BLOCK_REGISTER.register("gasoline", () -> new CarFluidBlock(ModFluids.GASOLINE));
     public static final DeferredHolder<Block, LiquidBlock> CANOLA_METHANOL_MIX = BLOCK_REGISTER.register("canola_methanol_mix", () -> new CarFluidBlock(() -> ModFluids.CANOLA_METHANOL_MIX.get()));
     public static final DeferredHolder<Block, LiquidBlock> CANOLA_OIL = BLOCK_REGISTER.register("canola_oil", () -> new CarFluidBlock(() -> ModFluids.CANOLA_OIL.get()));
     public static final DeferredHolder<Block, LiquidBlock> GLYCERIN = BLOCK_REGISTER.register("glycerin", () -> new CarFluidBlock(() -> ModFluids.GLYCERIN.get()));
